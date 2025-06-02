@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>𝐋𝐄 𝐗𝐔𝐀𝐍 𝐂𝐔𝐎𝐍𝐆 - Web Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/brands.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/solid.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/v4-shims.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/doraemonadventurevn/style_tqn_dev@main/thongtincanhan/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/doraemonadventurevn/style_tqn_dev@main/thongtincanhan/particles.css">
+  <style>
+    .verified img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+  </style>
+</head>
+<body>
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <video autoplay muted loop playsinline id="bgVideo">
+    <source src="backgroud.mp4" type="video/mp4">
+  </video>
+
+  <div class="particles" id="particles-js"></div>
+
+  <div class="theme-toggle" id="themeToggle">
+    <i class="fas fa-moon"></i>
+  </div>
+
+  <div class="container">
+    <div class="profile-card">
+      <div class="avatar-frame">
+        <img src="https://i.pinimg.com/originals/0c/5e/aa/0c5eaa4715b42f1561c390f5f841c48a.gif" alt="avatar" class="avatar">
+      </div>
+      
+      <h1> Lê Xuân Cường
+  <span class="verified">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAZlBMVEX///8WoyMAnQAAmwAAnwwAmQAAoBT9//3e79/p9OkLohzs9u3Q59F4wHz0+/WRypSv17DF4cWPypCazZxNsFODxYa33LlJrEsopSw8qT6/4cBsuW1YtF5SsFYupTJ0wHin1alkt2ZQWGfaAAAFJUlEQVR4nO1b2ZaqMBCUJASIiIJsCm7//5NXvKLQgUAWHB5SL3OOMydTdiqd3rLZWFhYWFhYWFhYWFhYWKwF3tYP48Mx291uu+x4iEN/+8eMonNSFSXCCCHyxPMHRmVRJeforwiF+9LFhDEHgFGC3es+/D2xICkI4vh0mCGSJsEvGUVx6ooYtbzcNP6ZufIC0SlG/0FJkXs/YOTFpTtppI65cBkvTsuviQSlFy1S+4tSipK5G9cFxcmC0vIvSJ5SA3RZzFgHrGCm1liHRSh5N6JKqQG5LaD3IFXcuhYoNe5L/ZOWnV62OhkWVnhVltMX9BqujpNhVn5phNOTVWlsB4OTIU5PVidDavdSbY1/QVIznuGm6Qv6QDcTnA4G7dSAGPDtvlE7NcDaYo8uxkTegl50Y4bEuKGeskr0OPnYPKfnBmr5Ba82tXkEo++BobWOX4gNnTxEsjzP6EcKJNYgVUrG4yOg2f/l9q3dWanOKXeNcML7dsFjK1E3V+UUFUYM1T1srYNhhapbMKMonHWWvLdLKqsqNXH0UNVdMmw/pqkap8CEolDVO/0fUo6r5qtMOHNS99c8f4yv5tajVF/mpAZ6Tj4yZamK1EN9mRN4xrohB1GJ1/fau0cLoJug6BwdtB/+v0Joe3N6BZy2Rdf4Kl490j179AT2J6r7gnDlRXXWDFoYg5qpgR7wWZpUoqdz5gCX7VVQo0TeKVRa7pwheI1wnBxWyUZVW63LmFG4NRl/llkh25vwSw1OjgvTqMHbQTqHD3W8FJfaHQePMpJ1n7HG4cNHsNh9+NBg2fDloG4pBDkdRlweks2Vj5AUI2i68/H6/hlY6jx2jjn2UwCnhdFHct/XdJoWgpzi0auB+9Mp7HoyYM658SleSKZcKoIpXeiMfhGy0yHFyvZqjR5irRHoEH1BI0ePFLl/Po8q0bFEJ3DJBlfBhmuRYr1/dcDj+wHrKQERXVbSpLpCZ/3M4zAmd8oAp624WCot9K5LYCD6Hyn00xO4y6Kr+FhIu4Su82QF+GUw1M1iCASaMKjjSck6z+41wxzu5tzxgUgJA83JPpz0NdO7kCm/+Xcod1jJjKabXtIXcj90wXfuD+JeF4ILNDe76RtdOnQBQR5JuCix1xuB8bY3I72WD/K8R3978INbYfv4GINyQd2MyIdWcMVJwMSBXDljR9k7bkB38JvjnKxDIXHgUizq8CnR/cWK8zf3WTmjQorFJ6NsRO5c/j2zcaKQjA6l7Yi/rMIThh/OTGOVirFDBQ704EpdW2inMz+8NAilAsdgKWi6OR3OC5oVS0HDRTPmiIvN4dxijVrRbKS8yLhEswt/dgFJsWs0VohFu9Hv6M/vNisWYkdL1ugxwiqaz0m1ZD1e3Kd8LNOgVz2cgHJxf7wNwsohb1zML2mpt0E2+agbZFy9YDrQ7EK9YSQsxnJR/0RG2P9OGq01YcsI90eP+EqdAFpNSGG7lhQdufNBuwB67VpxY5t9g4+jVDkL5j2yEIa1jLzlnkgVSHVHAKaGJXC5z/O9I1Vh0x+WmJpMYM3Ut1whWX+sZJ0DOOscVVrnUNcqx9+eYjczvNi0AA2Oeq5xpNLU8CmsFulijWO6JgaaLws8Dlnj6PemqYOubkj+CV91Cxd8TqD88AIt+fBis8onKhv5xzzuDx7zNMgLYcult3G/efbUYI0PxBoESbqyp3QvjD86ZAS75V88OnwTW9vzzDc+D1mfeD9k/ZW0LSwsLCwsLCwsLCwsLKbxDx9YSZh807k/AAAAAElFTkSuQmCC" alt="Verified" style="width: 20px; height: 20px; vertical-align: middle;">
+  </span>
+</h1>
+      <div class="title">Web Developer & Designer</div>
+      
+      <div class="social-icons">
+        <a href="mailto:lexuanc509@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://t.me/" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
